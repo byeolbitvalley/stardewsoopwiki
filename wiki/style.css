@@ -1,0 +1,43 @@
+
+*{box-sizing:border-box}
+body{margin:0;font-family:"Malgun Gothic","맑은 고딕","Apple SD Gothic Neo",sans-serif;background:#120f2e;color:#ece8ff;line-height:1.7;font-size:16px}
+a{color:#ffd75e}
+header{background:linear-gradient(#0d0b2e,#2a2163);border-bottom:4px solid #ffd75e}
+.top{max-width:1000px;margin:0 auto;padding:18px 20px 0;display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+.logo{font-size:30px;font-weight:900;color:#ffd75e;text-decoration:none;text-shadow:0 3px 0 #8a5a00;letter-spacing:-1px}
+.tag{color:#cfc4ff;font-size:14px}
+nav{max-width:1000px;margin:0 auto;padding:10px 14px 0;display:flex;flex-wrap:wrap;gap:4px}
+nav a{color:#ece8ff;text-decoration:none;padding:8px 14px;border-radius:8px 8px 0 0;font-weight:700;font-size:15px}
+nav a:hover{background:rgba(255,255,255,.08)}
+nav a.on{background:#120f2e;color:#ffd75e}
+main{max-width:1000px;margin:0 auto;padding:26px 20px 40px}
+h1{font-size:30px;margin:0 0 6px;color:#ffd75e}
+h2{font-size:22px;margin:34px 0 10px;padding-bottom:6px;border-bottom:2px solid rgba(255,215,94,.35);color:#fff}
+h3{font-size:18px;margin:22px 0 8px;color:#ffe9a8}
+p{margin:8px 0}
+.lead{color:#cfc4ff;margin-bottom:18px}
+.card{background:#1f1a48;border:2px solid #3b3279;border-radius:12px;padding:16px 20px;margin:14px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px}
+.grid a.card{display:block;text-decoration:none;color:#ece8ff;margin:0}
+.grid a.card:hover{border-color:#ffd75e}
+.grid a.card b{display:block;color:#ffd75e;font-size:18px}
+table{width:100%;border-collapse:collapse;margin:10px 0;font-size:15px}
+th,td{padding:9px 10px;border-bottom:1px solid #3b3279;text-align:left;vertical-align:middle}
+th{background:#2a2163;color:#ffe9a8;font-weight:700}
+td.n,th.n{text-align:right;white-space:nowrap}
+tr.bad td{background:rgba(232,69,92,.12)}
+.ico{width:32px;height:32px;image-rendering:pixelated;vertical-align:middle;margin-right:8px}
+.big{width:48px;height:48px}
+code,kbd{background:#2e2768;border:1px solid #4a3f96;border-radius:5px;padding:1px 6px;font-family:Consolas,monospace;font-size:.92em;color:#fff}
+ol li,ul li{margin:4px 0}
+.note{background:rgba(255,215,94,.1);border-left:4px solid #ffd75e;padding:10px 14px;border-radius:6px;margin:12px 0}
+.warn{background:rgba(232,69,92,.13);border-left:4px solid #e8455c;padding:10px 14px;border-radius:6px;margin:12px 0}
+.pill{display:inline-block;background:#e8455c;color:#fff;font-size:12px;font-weight:700;padding:1px 8px;border-radius:10px;margin-left:6px;vertical-align:2px}
+.pill.g{background:#22a38a}.pill.y{background:#b8860b}
+details{background:#1f1a48;border:2px solid #3b3279;border-radius:10px;padding:10px 16px;margin:10px 0}
+details summary{cursor:pointer;font-weight:700;color:#fff}
+details[open] summary{margin-bottom:6px;color:#ffd75e}
+footer{border-top:2px solid #2a2163;color:#9d93c9;font-size:13px;text-align:center;padding:20px 16px 30px}
+footer a{color:#cfc4ff}
+.scroll{overflow-x:auto}
+@media (max-width:640px){body{font-size:15px}.logo{font-size:24px}nav a{padding:6px 9px;font-size:14px}h1{font-size:24px}th,td{padding:7px 6px;font-size:14px}}
